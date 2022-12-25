@@ -1,5 +1,5 @@
-const {Home} from "./comtrollers/main"
+const {Home} = "./comtrollers/main"
 
-module.exports = (Rout) =>{
-    Rout.get('/', Home)
+module.exports = (Route) =>{
+    Route.get('/', Home)
 }
