@@ -1,5 +1,5 @@
-const {Home} = "./controllers/main"
+import {Home} from "./controllers/main"
 
-module.exports = (Route) =>{
+export default (Route) =>{
     Route.get('/', Home)
 }
