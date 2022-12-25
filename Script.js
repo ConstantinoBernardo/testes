@@ -1,4 +1,4 @@
-const {Home} = "./comtrollers/main"
+const {Home} = "./controllers/main"
 
 module.exports = (Route) =>{
     Route.get('/', Home)
